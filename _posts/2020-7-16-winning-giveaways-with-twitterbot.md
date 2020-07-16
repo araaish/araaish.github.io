@@ -13,6 +13,8 @@ The answer is by drastically increasing your chances. One entry in a lucky draw 
 
 Thus the last idea is to enter many contests. If the probability of winning one contest is low, we can increase our chances of winning _something_ by entering as many contests as possible. So I thought about using automation to enter some online contests.
 
+Hunter Scott has a great [project](https://www.hscott.net/twitter-contest-winning-as-a-service/) that informed my process with this project. Definitely check it out if you want to try this out yourself.
+
 ### Twitter Botting
 
 Twitter is perhaps the easiest platform for entering giveaways. There are many giveaways where the only criteria to enter is a RT (retweet) and a follow. By taking advantage of the twitter API, we can write a relatively simple Python script to periodically web scrape the twitter search results for the #giveaway tags and retweet eligible tweets.
@@ -60,7 +62,7 @@ Unfortunately, I did not win a new car or five Nintendo switches. Out of a few t
 
 #### Fake and Worthless Giveaways
 
-I also won some sketchy giveaways. ![possible scam](/images/scam_win)
+I also won some sketchy giveaways. ![possible scam](/images/scam_win.png)
 
 These kinds of contests clouded the overall pool and decreased my yield of wins. In a future attempt at botting, I would use better filters to get rid of illegitimate giveaways.
 
@@ -76,6 +78,8 @@ I blacklisted many of the accounts, but some still got through. While these were
 #### Errors
 
 Because of Twitter's restrictive rate limits, I had to time everything carefully, with delays between each part of the entry process. Sometimes, this would backfire. When the webscraper found 0 new giveaways, the script started posting random tweets every second.
+
+![errors](/images/errors.png)
 
 
 ### Conclusion
