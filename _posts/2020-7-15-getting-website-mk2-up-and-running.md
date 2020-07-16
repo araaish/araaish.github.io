@@ -41,4 +41,4 @@ Web Design is a surprisingly deep subject, with many things to learn and an evol
 
 As for the actual content, it is worthwhile to make your own website if you have anything to share. If the Voyager 1 metaphor is too sci-fi for you, think of it as a handwritten letter, except you don't know who you're sending it to.
 
-#### check out my main [website](araaishpaul.com)!
+#### check out my main [website](https://www.araaishpaul.com/)!
