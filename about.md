@@ -4,12 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I study computer science as an undergraduate student at the University of Illinois at Urbana Champaign. I enjoy programming, writing, playing music, and running.
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+You can find out more about me at my main [website](araaishpaul.com)
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[araaish2@illinois.edu](mailto:araaish2@illinois.edu)
