@@ -3,16 +3,18 @@ layout: post
 title: Binary Image Classification of Fungi Species
 ---
 
-This project is a proof-of-concept for the task of identifying fungi species from digital images using deep learning. In this preliminary exploration of the idea, I trained a model to correctly classify and differentiate between the Amanita muscaria and Xylodon raduloides species of fungi. The final deployed model performs with an accuracy of roughly 90%. I created a flask application to serve the model on the web. It is hosted on the Google cloud platform can be accessed at the following [link:](https://amanita-vs-xylodon.uk.r.appspot.com/)
+This project is a proof-of-concept for the task of identifying fungi species from digital images using deep learning. In this preliminary exploration of the idea, I trained a model to correctly classify and differentiate between the Amanita muscaria and Xylodon raduloides species of fungi. The final deployed model performs with an accuracy of roughly 90%. I created a flask application to serve the model on the web. It is hosted on the Google cloud platform can be accessed at the following [link](https://amanita-vs-xylodon.uk.r.appspot.com/).
 
 
-Amanita muscaria 	![amanita](/images/Fly-agaric.jpg)                Xylodon raduloides  	![xylodon](/images/xylodon.jpeg)
+          ![amanita](/images/Fly-agaric.jpg)  Amanita muscaria
 
 #### Inspiration
 
 Two biological kingdoms dominate our perception of life in the physical world. The fantastical fungi kingdom has been overshadowed by plants and animals. Despite their relative obscurity, fungi play an integral role in the Earth's ecological system and have a remarkably symbiotic relationship with plants and animals, including humans. Among the more than 5 million species of fungi, a diverse array of species contribute to the Earth's nutrient cycles, influence medical discoveries such as penicillin, and provide nutritional value to humans.
 
 Fascinated by mycology and the relationship of fungi with the natural world, I wanted to apply deep learning methods to create an application that can assist in the identification of species. As over 3000 new species are discovered each year, the taxonomical task becomes quite large. For an untrained eye, it can be difficult to differentiate between certain species that look similar. A misjudgement can have grave consequences, as useful mushrooms often look very similar to poisonous ones. With this series of projects I hope to aid mycologists and mushroom hunters alike in their quest to explore the fantastical fungi kingdom.
+
+          ![xylodon](/images/xylodon.jpeg)  Xylodon raduloides
 
 #### Data
 
