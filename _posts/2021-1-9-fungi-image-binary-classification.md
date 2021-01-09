@@ -3,7 +3,7 @@ layout: post
 title: Binary Image Classification of Fungi Species
 ---
 
-This project is a proof-of-concept for the task of identifying fungi species from digital images using deep learning. In this preliminary exploration of the idea, I trained a model to correctly classify and differentiate between the Amanita muscaria and Xylodon raduloides species of fungi. The final deployed model performs with an accuracy of roughly 90%. I created a flask application to serve the model on the web. It is hosted on the Google cloud platform can be accessed at the following [link](https://amanita-vs-xylodon.uk.r.appspot.com/).
+This project is a proof-of-concept for the task of identifying fungi species from digital images using deep learning. In this preliminary exploration of the idea, I trained a model to correctly classify and differentiate between the Amanita muscaria and Xylodon raduloides species of fungi. The final deployed model performs with an accuracy of roughly 90%. I created a flask application to serve the model on the web. It is hosted on the Google cloud platform and can be accessed at the following [link](https://amanita-vs-xylodon.uk.r.appspot.com/).
 
 ![amanita](/images/Fly-agaric.jpg)    Amanita muscaria
 
@@ -47,7 +47,7 @@ I used the Google cloud platform to serve the web application. I also used Googl
 
 The model performs well with outside data it has never seen before. It successfully classified most images from a Google search of the species. There were a few key issues that will need to be addressed in the next stage of this project. The model fails to recognize example images that are unusual from the average appearance of the dataset. For example, the amanita muscaria mushroom is red. If an unusually white amanita mushroom is fed into the model, it will be unsure of the classification. This is an indication that I need more data, through web scraping and data augmentation. Another shortcoming is that the model fails to recognize images of mushrooms from the same genus, but of different species. This is actually a good thing, but it shows that the model may rely on very basic aspects of the image data, such as average color.
 
-The next stage of the project, my goal is to expand the problem space from just two species to a few dozen, with some species that look similar. This will determine the true potential for deep learning to assist or supersede humans in the classification of fungi species.
+For the next stage of the project, my goal is to expand the problem space from just two species to a few dozen, with some species that look similar. This will determine the true potential for deep learning to assist or supersede humans in the classification of fungi species.
 Future improvements include expanding to multiple classes, data augmentation, more powerful CNN architecture, larger image size, and more training.
 
 As the relationship of fungi with the natural world and its direct effect on us becomes more evident, more of us will begin to explore the largely unexplored landscape of mycology.
