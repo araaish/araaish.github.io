@@ -3,7 +3,7 @@ layout: post
 title: Automating spotify playlist creation
 ---
 
-![playlists](/images/spotify_playlists.jpg)    Monthly playlists
+![playlists](/images/spotify_playlists.png)    Monthly playlists
 
 For the last 4 years, I have been using IFTTT to connect different digital platforms for automating simple tasks. For example, I used an 'IFTTT widget' to turn on my smart bulb at sunset. Of the widgets I have tried, there's one that has been especially useful - an IFTTT widget that automatically creates monthly playlists of my liked songs on spotify.
 
