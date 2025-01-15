@@ -7,21 +7,18 @@ title: Winning giveaways with twitterbot
 
 If you have a social media account, you have probably noticed a product giveaway in a sponsored add or by your favorite content creator. In the last decade, these digital media platforms have allowed for a new method for marketing and customer engagement: online giveaways.
 
-I noticed these kind of giveaways increasing in my social media feeds, and I had one simple question – _what would make it worthwhile to enter?_
+I noticed these kind of giveaways increasing in my social media feeds, and I had a question – _what would make it worthwhile to enter?_
 
 The answer is by drastically increasing your chances. One entry in a lucky draw is a waste of time when there are thousands of entries. The first idea to come to mind would be to increase your entries, but most contests require giving away information or limit your entries behind paywalls or otherwise simply to maintain the integrity of the contest.
 
 Thus the last idea is to enter many contests. If the probability of winning one contest is low, we can increase our chances of winning _something_ by entering as many contests as possible. So I thought about using automation to enter some online contests.
 
-Hunter Scott has a great [project](https://www.hscott.net/twitter-contest-winning-as-a-service/) that informed my process with this project. Definitely check it out if you want to try this out yourself.
+Hunter Scott has a great [project](https://www.hscott.net/twitter-contest-winning-as-a-service/) that informed my process with this project.
 
-### Twitter Botting
+### Twitter Bots
 
 Twitter is perhaps the easiest platform for entering giveaways. There are many giveaways where the only criteria to enter is a RT (retweet) and a follow. By taking advantage of the twitter API, we can write a relatively simple Python script to periodically web scrape the twitter search results for the #giveaway tags and retweet eligible tweets.
 
-### The Process
-
-So I'll walk you through the steps I took from start to finish, and maybe you can try some social media bots of your own with various purposes.
 
 #### Twitter API
 
@@ -35,7 +32,7 @@ The first step is to scrape the twitter website to find eligible giveaways. You 
 
 #### Tweepy
 
-Another great python library is tweepy, which simplifies the API requests for you. simple function calls can send tweets, retweet, follow, and like tweets. I used this to filter enter the giveaways that I scraped.
+Another great python library is tweepy, which simplifies the API requests for you. simple function calls can send tweets, retweet, follow, and like tweets. I used this to filter and enter the giveaways that I scraped.
 
 #### Hosting
 
@@ -64,7 +61,7 @@ Unfortunately, I did not win a new car or five Nintendo switches. Out of a few t
 
 I also won some sketchy giveaways. ![possible scam](/images/scam_win.png)
 
-These kinds of contests clouded the overall pool and decreased my yield of wins. In a future attempt at botting, I would use better filters to get rid of illegitimate giveaways.
+These kinds of contests clouded the overall pool and decreased my yield of wins. In a future attempt, I would use better filters to get rid of illegitimate giveaways.
 
 #### Bot Spotters
 
@@ -84,12 +81,11 @@ Because of Twitter's restrictive rate limits, I had to time everything carefully
 
 ### Conclusion
 
-This iteration of my twitterbot did not accomplish the ultimate goal: winning a Ferrari and the briefcase from Pulp Fiction. However, this twitterbot was a good proof of concept for automated mass entry in giveaways. I also learned a lot about automation, API's and scripting from this project.
+This iteration of my twitterbot was not truly successful. However, this twitterbot was a good proof of concept for automated mass entry in giveaways. I also learned a lot about automation, API's and scripting from this project.
 
-I already have ideas to improve the bot, and in the future I may try exploiting online giveaways on other platforms like Gleam.io or Instagram.
 
 #### Ethical Questions
 
-It is a fair argument to make that taking advantage of such contests is unfair and takes away from other people's chance of winning. But until I actually win valuable prizes, I won't think about how to balance the scales.
+It is a fair argument to make that taking advantage of such contests is unfair and takes away from other people's chance of winning. A project that starts to achieve real results is fun, but it should take fairness into consideration.
 
 #### Check out my code [here](https://github.com/araaish/twitterbot)

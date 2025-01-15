@@ -13,8 +13,8 @@ IFTTT did this job of creating playlists for me very well, until the service bec
 
 In this case, I achieve the same thing IFTTT did by running a Ruby script on a scheduled task on my local machine. The script queries the Spotify web API to retrieve my liked songs added after a timestamp and adds them to a new playlist.
 
-This simple project prompted me to consider other services which I can implement myself. I think today there is an overabundance of applications that are interested in marketing a solution to a problem, rather than solving it. In my lifetime music has transformed away from something you could own to something that you use as a service. It seems that software has followed a similar path.
+This simple project prompted me to consider other services which I can implement myself. I think today there is an overabundance of applications that are interested in marketing a solution to a problem, rather than solving it. In my lifetime music has transformed away from something you could own to something that you access as a service. It seems that software has followed a similar path.
 
-Considering the ubiquity of software and cloud services, it may be worthwhlie to ask myself a few questions if I'm building an application. Would I _need_ to use cloud services if I was building this just for myself? If I had a legal money printer at home, is there any reason I _should not_ make it open source?
+Considering the ubiquity of software and cloud services, it may be worthwhlie to ask myself a few questions if I'm building an application. Would I _need_ to use cloud services if I was building this just for myself? Aside from a financial incentive, is there any reason I _should not_ make it open source?
 
-In the realm of connected services integration and automation, your perspective on these questions could be the difference between [IFTTT](https://ifttt.com/) and [Home Assistant](https://www.home-assistant.io/)
+In the realm of connected services integration and automation, the difference in perspectives can be seen between software like [IFTTT](https://ifttt.com/) and [Home Assistant](https://www.home-assistant.io/)
